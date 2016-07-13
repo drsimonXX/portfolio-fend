@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/media-query.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<title>Danielle R. Simon's Portfolio</title>
+		</head>
+	<body>
+		<div class="container">
+			<section class="row header">
+				<div class="col-md-6">
+					<span class="entypo-code"></span>
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1>Danielle R. Simon</h1>
+					<h3 class="profession">Front-end Web Developer</h3>
+				</div>
+			</section>
+			<section class="row featured">
+				<div class="col-md-12 project-margin modal-body" data-toggle="modal" data-target="#main-pic">
+					<hr>
+					<img src="images/css_code_1140w.jpg" alt="code" class="img-responsive img-stretch">
+						<!--source: https://www.denverlibrary.org/files/css_code.jpg-->
+					<p class="no-response"></p>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Featured Projects</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 project-margin modal-body" data-toggle="modal" data-target="#ren-project">
+						<img src="images/ren_site_555w.jpg" alt="Ren Wants Riches Site" class="img-responsive img-border">
+						<h3 class="projects">Ren Wants Riches</h3>
+						<p class="no-response"><a href="http://renwantsriches.com" target="blank">renwantsriches.com</a><br>
+						Click the image above for more info!</p>
+					</div>
+					<div class="col-md-4 project-margin modal-body" data-toggle="modal" data-target="#pacific-project">
+						<img src="images/pacific_site_555w.jpg" alt="Pacific Trails" class="img-responsive img-border">
+						<h3 class="projects">Pacific Trails Resort</h3>
+						<p class="no-response"><a href="http://renwantsriches.com/pacific/index.html" target="blank">renwantsriches.com/pacific/index.html	</a><br>
+						Click the image above for more info!</p>
+					</div>
+					<div class="col-md-4 project-margin modal-body" data-toggle="modal" data-target="#onsale-project">
+						<img src="images/onsale_555w.jpg" alt="OnSale" class="img-responsive img-border">
+						<h3 class="projects">OnSale</h3>
+						<p class="no-response"><a href="http://renwantsriches.com/portfolio.php" target="blank">renwantsriches.com/OnSale.jar</a><br>
+						Click the image above for more info!</p>
+					</div>
+				</div>
+			</section>
+			<footer class="row">
+				<div class="col-md-12">
+					<p>&copy; Danielle R. Simon 2016</p>
+				</div>
+			</footer>
+		</div>
+		
+	<div class="modal fade" id="main-pic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Welcome!</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/css_code_1140w.jpg" data-toggle="modal" data-target="#main-pic">
+                    Welcome to my portfolio! Make sure you check out the project links below!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="modal fade" id="ren-project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Ren Wants Riches</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/ren_site_555w.jpg" data-toggle="modal" data-target="#ren-project">
+                    A blog-style site built with HTML, CSS, Bootstrap, MySQL and PHP.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="modal fade" id="pacific-project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Pacific Trails Resort</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/pacific_site_555w.jpg" data-toggle="modal" data-target="#pacific-project">
+                    A vacation and reservations site built with HTML, CSS and just a bit of JavaScript.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="modal fade" id="onsale-project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">OnSale</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/onsale_555w.jpg" data-toggle="modal" data-target="#onsale-project">
+                    Yes, I Java a little, too! <span class="big-smiley">&#x263A;</span>  Calculate sales discount at 9.25% tax rate.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	</body>
+</html>

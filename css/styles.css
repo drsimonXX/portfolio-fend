@@ -1,0 +1,76 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: "entypo", sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  font-size: 75px;
+}
+
+body {
+	margin-bottom: 20px;
+}
+
+.container {
+	 width: 85vw;
+}
+
+hr {
+    height: 3px;
+    background-color: #7d97ad;
+    margin-top: -10px;
+    margin-bottom: 5px;
+	width: 100%;
+}
+
+h2 {
+	padding-left: 10px;
+	color: grey;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text-right {
+	font-family: 'Open Sans', sans-serif;
+	padding-right: 15px;
+}
+
+.img-stretch {
+	width: 100%;
+}
+
+.col-md-4 {
+	padding-top: 0;
+}
+
+.projects {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #7d97ad;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.project-margin {
+	margin-bottom: 40px;
+}
+
+p {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #7d97ad;
+	margin-top: 2px;
+}
+
+.profession {
+	margin-top: 5px;
+}
+
+.img-border {
+	border: 2px outset #7d97ad;
+}
+
+.big-smiley {
+	font-size: 30px;
+}
