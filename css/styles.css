@@ -80,3 +80,12 @@ p {
 .big-smiley {
 	font-size: 30px;
 }
+
+.certificate {
+	background-color: #7d97ad;
+}
+
+.center.h2 {
+	color: black;
+	text-align: center;
+}
