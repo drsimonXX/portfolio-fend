@@ -50,6 +50,10 @@
 	.projects {
 		font-size: 18px;
 	}
+	
+	.certificate {
+		margin-left: 0;
+	}
 }
 
 @media screen and (min-width: 481px) and (max-width: 650px) {
