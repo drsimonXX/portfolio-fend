@@ -2,9 +2,9 @@
 
 /* entypo */
 [class*="entypo-"]:before {
-  font-family: "entypo", sans-serif;
-  text-shadow: 3px 3px 3px #aaa;
-  font-size: 75px;
+  	font-family: "entypo", sans-serif;
+	 text-shadow: 3px 3px 3px #aaa;
+  	font-size: 75px;
 }
 
 body {
@@ -16,10 +16,10 @@ body {
 }
 
 hr {
-    height: 3px;
-    background-color: #7d97ad;
-    margin-top: -10px;
-    margin-bottom: 5px;
+    	height: 3px;
+    	background-color: #7d97ad;
+    	margin-top: -10px;
+	margin-bottom: 5px;
 	width: 100%;
 }
 
