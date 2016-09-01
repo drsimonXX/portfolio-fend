@@ -18,14 +18,14 @@ body {
 }
 
 .container {
-	 width: 85vw;
+	width: 85vw;
 }
 
 hr {
-    height: 3px;
-    background-color: #7d97ad;
-    margin-top: -10px;
-    margin-bottom: 5px;
+    	height: 3px;
+	background-color: #7d97ad;
+	margin-top: -10px;
+	margin-bottom: 5px;
 	width: 100%;
 }
 
