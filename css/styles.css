@@ -82,7 +82,8 @@ p {
 }
 
 .certificate {
-	background-color: #7d97ad;
+	background-color: gray;
+	margin-bottom: 40px;
 }
 
 .cert {
