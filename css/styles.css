@@ -86,10 +86,14 @@ p {
 	margin-bottom: 50px;
 }
 
-.center {
+.cert {
 	color: black;
-/*	text-align: center;*/
+	text-align: center;
+}
+
+.cert-img {
 	display: block;
     	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;	
 }
+
