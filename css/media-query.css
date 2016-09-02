@@ -120,11 +120,11 @@
 	}
 }
 
-@media screen and (min-width: 720px) and (max-width: 975px) {
+/*@media screen and (min-width: 720px) and (max-width: 975px) {
 	.certificate {
-		margin-left: 0px;
+		margin-left: 0;
 	}
-}
+}*/
 
 @media screen and (min-width: 991px) {
 	.profession {
@@ -134,5 +134,9 @@
 	hr {
 		margin-top: 10px;
 		margin-bottom: 25px;
+	}
+	
+	.certificate {
+		margin-left: 15px;
 	}
 }
