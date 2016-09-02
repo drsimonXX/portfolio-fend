@@ -121,8 +121,8 @@
 }
 
 @media screen and (min-width: 720px) and (max-width: 975px) {
-	.certificate {
-		margin-left: -15px;
+	.center {
+		margin-left: 0;
 	}
 }
 
