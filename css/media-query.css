@@ -118,10 +118,6 @@
 	.no-response {
 		width: 550px;
 	}
-	
-	.certificate {
-		margin-left: 0;
-	}
 }
 
 @media screen and (min-width: 991px) {
